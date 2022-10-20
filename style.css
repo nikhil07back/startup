@@ -1,0 +1,647 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+.clear{
+    clear: both;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* NAVBAR IS START  */
+
+nav{
+
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0px;
+}
+
+nav h1{
+
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+    padding-right: 80px;
+
+}
+
+.nav-link{
+
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+}
+
+.nav-link li{
+    margin: 20px;
+
+}
+
+
+.nav-links{
+
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.nav-links li{
+    margin: 20px;
+}
+
+.nav-link li:hover{
+
+    color: aliceblue;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(118, 118, 119);
+}
+
+
+/*this is the section of the para is a section of the body  */
+
+section{
+
+    height:100vh;
+    background-image:url("images/ung.jpg");
+    background-image: cover;
+    background-position: 100% ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+
+}
+
+.para {
+
+    height: 700px;
+    width: 900px;
+    position: absolute;
+    top: 260px;
+    left: 300px;
+}
+
+.para h2{
+
+    font-size: 30px;
+    color: white;
+    margin: 30px;
+
+}
+
+.para h1{
+    font-size: 90px;
+    margin: 30px;
+    color: white;
+}
+
+.para p{
+    margin: 20px; 
+    color: white;
+}
+
+.para button{
+    height: 60px;
+    width: 210px;
+   background-color: rgb(33, 87, 189);
+   color: aliceblue;
+   border: none;
+   margin: 30px;
+}
+
+/* four box types of the house  */
+
+.box_one{
+ 
+   
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.box{
+
+    height: 220px;
+    width: 280px;
+    background-color:white;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 60px;
+    margin-bottom: 100px;
+
+}
+
+.box h1{
+
+    font-size: 30px;
+    margin: 20px;
+   
+
+}
+
+.box p{
+
+    font-size: 20px;
+    margin: 20px;
+
+}
+
+.box li{
+
+    margin: 10px;
+    font-size: 30px;
+
+}
+
+
+.box h3{
+
+    font-size: 26px;
+    color: rgb(82, 82, 171);
+
+}
+
+
+.boxs_two{
+       
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+
+    height: 220px;
+    width: 280px;
+    margin: 20px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    /* animation: mymove 5s infinite; */
+    box-shadow: 5px 10px 5px 8px #EEEEEE;
+
+}
+
+/* @keyframes mymove {
+    30%{ 
+        box-shadow: 10px 10px 10px rgb(47, 47, 48);}
+    
+} */
+
+
+/* this is also image of background section  */
+
+.large{
+
+    height: 50vh;
+    background-image: url("images/big-15.jpg");
+    opacity: 1.0;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-image: cover;
+    margin-top: 200px;
+    
+}
+
+.large{
+
+
+    padding-left: 500px;
+}
+
+.large-one{
+
+    height: 400px;
+    width: 600px;
+    text-align: center;
+}
+
+.large-one h5{
+
+    margin: 20px;
+    font-size: 30px;
+    color: #EEEEEE;
+}
+
+.large-one h1{
+
+    color: #EEEEEE;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.large-one button{
+
+    height: 50px;
+    width: 180px;
+    margin: 80px;
+    background-color:rgb(70, 70, 181);
+    font-size: 14px;
+    color: white;
+}
+
+.large-one button:hover{
+
+    background-color: blue;
+}
+
+
+/* this is little part in the section  */
+
+.little h1{
+
+    text-align: center;
+    margin: 30px;
+    margin-top: 200px;
+
+}
+
+.little_x{
+    margin: 20px;
+    width: 900px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+/* section of the boxs in the section of the instution in the end  */
+
+
+  #box_one{
+ 
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px;
+} 
+
+.box_s{
+
+    height:300px;
+    width: 600px;
+    display:flex;
+    justify-content:space-between;
+    margin: 10px;
+    border: none;
+
+} 
+
+
+#box_x{
+ 
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px;
+} 
+
+.box_x
+{
+
+    height:300px;
+    width: 600px;
+    border: none;
+    display:flex;
+    justify-content:space-between;
+    margin: 10px;
+    
+
+} 
+
+
+/* this is also h1 h2 h3 in the section of the part   */
+
+
+.paragrapy{
+
+    display: flex;
+    justify-content:space-around;
+}
+
+
+.container {
+    height: 400px;
+    width: 650px; 
+    margin-top: 10px;
+
+
+}
+
+.container h2 {
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.container h1{
+    font-size: 35px;
+    margin: 12px;
+}
+
+.container h3{
+    margin: 10px;
+    font-size: 20px;
+    font-style: italic ;
+    font-weight: lighter;
+}
+
+.container p{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.container button{
+
+    height: 60px;
+    width: 170px;
+    background-color: black;
+    border: none;
+    color: #EEEEEE;
+    margin: 20px;
+    margin-left: 20px;
+}
+
+.container button:hover{
+
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}
+
+.paragrpy_one{
+    height: 400px;
+    width: 600px;
+    display: flex;
+}
+
+
+
+.paragr{
+
+    height: 200px;
+    width: 500px;
+    
+}
+
+
+.paragr li{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 2px;
+    color: rgb(75, 75, 194);
+   margin-top: 10px;
+
+}
+
+/*this is background url in the image section  */
+
+.img-section{
+    height: 100vh;
+    margin-top: 70px;
+  
+}
+
+.img-sections{
+
+    height: 90%;
+    background-image: url("images/vfeger.jpg");
+    background-image: cover;
+    background-position: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.img-sections{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+
+}
+
+.img-sections h2{
+
+    font-size: 23px;
+    margin: 30px;
+    color: rgb(178, 178, 174);
+
+}
+.img-sections h1{
+
+    font-size: 63px;
+    margin: 20px;
+    color: rgb(178, 178, 174);
+
+}
+.img-sections p{
+    font-size: 19px;
+    margin: 20px;
+
+
+}
+
+/* smal part in the section of img-zoom-name  */
+
+.img-zoom-name{
+
+    margin: 30px 0px 0px 100px;
+
+}
+
+.img-zoom-name h2,h1,em{
+
+    margin: 20px;
+    color: rgb(48, 48, 42);
+}
+
+
+/* span part in the start is also read me  */
+
+
+span{
+
+
+    display: flex;
+    justify-content: center;
+}
+
+.img-zoom{
+
+    height: 400px;
+    width: 300px;
+    background-color: rgb(79, 238, 90);
+    margin-top: 30px;
+    margin-right: 130px;
+    overflow: hidden;
+
+}
+
+
+.img-zoom img{
+
+    transition: 0.2s ease-in-out;
+}
+
+
+.img-zoom:hover{
+    transform: scale(1.1);
+}
+
+/* this is also a hard section is know  */
+
+.backgorund-img{
+    height: 100%;
+    background-image: url("images/big-15.jpg");
+    background-position: 100%;
+    background-image: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content:space-around;
+    flex-direction:row;
+    align-content: center;
+    color: #EEEEEE;
+    margin-top: 110px;
+    margin-bottom: 20px;
+}
+
+
+.background h3{
+    margin-top: 50px;
+}
+
+.background h1{
+    color: #EEEEEE;
+}
+
+ .background img{
+    margin-top: 20px;
+  background-color: #EEEEEE;
+
+}
+
+
+.background:hover{
+    height: 240px;
+    width: 320px;
+    background-color:rgb(74, 74, 181);
+    color: black;
+}
+
+/* value esction is start in the know so please it will be to images  */
+
+.value{
+
+    height: 300px;
+    width: 600px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    left: 500px;
+}
+
+
+.value h1{
+    font-size: 60px;
+    color: rgb(142, 133, 122);
+}
+
+.value h2{
+    font-size: 30px;
+    color: rgb(142, 133, 122);
+    margin-top: 70px;
+}
+
+/* slider bar in the inside of the auto section in the intstry of a section in the section */
+
+
+.value-section{
+    height: 300px;
+    width:1200px;
+
+}
+
+.value-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.value-bar img{
+    margin: 40px;
+}
+/* footer is right know in vaildation of the instuiton  */
+
+footer{
+
+    margin-top: 100px;
+    height: 300px;
+    background-color: rgb(23, 22, 22);
+    display: flex;
+    justify-content:center;
+    align-content:center ;
+    flex-direction:row;
+
+}
+.foot-bar {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 100px;
+}
+ .foot{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin: 30px;
+    margin-left: 350px;
+    font-size: 23px;
+}
+
+.foot li{
+    margin: 7px;
+}
+
+.foot li:hover{
+    color: skyblue;
+}
+
+.copy{
+
+    background-color:rgb(23, 22, 22);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #646161;
+    padding: 10px;
+}
+
+
+
